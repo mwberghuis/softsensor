@@ -5,7 +5,7 @@ This repository contains a COMSOL (Multiphysics 6.2) model and MATLAB (R2021a) s
 
 ## Folder Structure
 - **axisymsensor_results/**: Contains the (manually exported) .xlsx files with the result data of all model sweeps
-- **comsol_model/**: Contains `.mph` file from COMSOL for one loadcase (load_mag=40kN; = F_max 4.8N) and fluid viscosity (mu=0.1 Pas = 100 cSt). Changing these parameters (e.g. in batch sweep mode) generates the result data.
+- **comsol_model/**: Contains `.mph` file from COMSOL for one loadcase (load_mag=40kPa -> = F_max 4.8N) and fluid viscosity (mu=0.1 Pas = 100 cSt). Changing these parameters (e.g. in batch sweep mode) generates the result data.
 - **axisymsensor_postprocessing_sweeps.m**: MATLAB script to load data from _results and generate figures.
 
 ## How to Use Comsol (Multiphysics 6.2) model and matlab script
